@@ -1,0 +1,23 @@
+[
+  { "name": "rule34.xxx", "short": "xxx", "max_count": 3659351, "pid": 0 },
+  {
+    "name": "rule34.paheal.net",
+    "short": "paheal",
+    "max_count": 3532797,
+    "pid": 0
+  },
+  {
+    "name": "danbooru.donmai.us",
+    "short": "danbooru",
+    "max_count": 3806415,
+    "pid": 1
+  },
+  {
+    "name": "gelbooru.com",
+    "short": "gelbooru",
+    "max_count": 5164061,
+    "pid": 0
+  },
+  { "name": "lolibooru.moe", "short": "loli", "max_count": 225092, "pid": 1 },
+  { "name": "e621.net", "short": "e621", "max_count": 2168016, "pid": 1 }
+]
