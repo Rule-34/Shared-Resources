@@ -6,22 +6,41 @@ with open(os.path.dirname(__file__) + '/../booru-list.json', 'r') as f:
     booru_list = load(f)
 
 
-def remove_key_of_list(_list, key, value_list):
+def find_boorus_with_value_by_key(value, key='short', _list=booru_list):
 
-    return list(
+    values = list(filter(lambda x: x[key] == value, _list))
+
+    if not values:
+        return None
+
+    return values
+
+
+def remove_boorus_with_values_by_key(value_list, key='short', _list=booru_list):
+
+    values = list(
         filter(lambda x: x[key] not in value_list, _list))
 
+    if not values:
+        return None
 
-def booru_list_nsfw():
+    return values
 
-    return list(
-        filter(lambda x: x['nsfw'] == True, booru_list))
+
+# Some presets
+booru_list_nsfw = find_boorus_with_value_by_key(True, 'nsfw', booru_list)
 
 
 # Exported values
 # - booru_list
-# - remove_key_of_list()
-# - booru_list_nsfw()
+# - booru_list_nsfw
+
+# Exported functions
+# - find_boorus_with_value_by_key
+# - remove_boorus_with_values_by_key
+
 
 # Example usage
-# remove_key_of_list(booru_list_nsfw(), "short", ["xxx"])
+# print(booru_list_nsfw, len(booru_list_nsfw))
+# print(find_boorus_with_value_by_key('xxx', 'short'))
+# print(remove_boorus_with_values_by_key(["xxx"], 'short', booru_list_nsfw))
