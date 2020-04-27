@@ -1,7 +1,7 @@
 import os.path
 from json import load
 
-# Load boorus from json
+# Load boorus from JSON
 with open(os.path.dirname(__file__) + '/../booru-list.json', 'r') as f:
     booru_list = load(f)
 
