@@ -6,7 +6,7 @@ with open(os.path.dirname(__file__) + '/../booru-list.json', 'r') as f:
     booru_list = load(f)
 
 
-def find_boorus_with_value_by_key(value, key='short', _list=booru_list):
+def find_boorus_with_value_by_key(value, key='domain', _list=booru_list):
 
     values = list(filter(lambda x: x[key] == value, _list))
 
@@ -16,7 +16,7 @@ def find_boorus_with_value_by_key(value, key='short', _list=booru_list):
     return values
 
 
-def remove_boorus_with_values_by_key(value_list, key='short', _list=booru_list):
+def remove_boorus_with_values_by_key(value_list, key='domain', _list=booru_list):
 
     values = list(
         filter(lambda x: x[key] not in value_list, _list))
@@ -42,5 +42,5 @@ booru_list_nsfw = find_boorus_with_value_by_key(True, 'nsfw', booru_list)
 
 # Example usage
 # print(booru_list_nsfw, len(booru_list_nsfw))
-# print(find_boorus_with_value_by_key('xxx', 'short'))
-# print(remove_boorus_with_values_by_key(["xxx"], 'short', booru_list_nsfw))
+# print(find_boorus_with_value_by_key('rule34.xxx', 'domain'))
+# print(remove_boorus_with_values_by_key(["rule34.xxx"], 'domain', booru_list_nsfw))

@@ -1,5 +1,5 @@
 // Load boorus from JSON
-import booruList from '../booru-list.json'
+import booruList from '../booru-list.json';
 
 /**
  * Returns an Array of filtered results
@@ -7,8 +7,8 @@ import booruList from '../booru-list.json'
  * @param {string} key Key of the object
  * @param {array} list Array to compare results
  */
-function findBoorusWithValueByKey(value, key = 'short', list = booruList) {
-  return list.filter((booru) => booru[key] === value)
+function findBoorusWithValueByKey(value, key = 'domain', list = booruList) {
+  return list.filter((booru) => booru[key] === value);
 }
 
 /**
@@ -19,14 +19,14 @@ function findBoorusWithValueByKey(value, key = 'short', list = booruList) {
  */
 function removeBoorusWithValuesByKey(
   valueArray,
-  key = 'short',
+  key = 'domain',
   list = booruList
 ) {
-  return list.filter((booru) => !valueArray.includes(booru[key]))
+  return list.filter((booru) => !valueArray.includes(booru[key]));
 }
 
 // Some presets
-const booruListNSFW = findBoorusWithValueByKey(true, 'nsfw')
+const booruListNSFW = findBoorusWithValueByKey(true, 'nsfw');
 
 // Exported values
 export {
@@ -34,9 +34,9 @@ export {
   booruListNSFW,
   findBoorusWithValueByKey,
   removeBoorusWithValuesByKey,
-}
+};
 
 // Example usage
 // console.log(booruListNSFW, booruListNSFW.length)
-// console.log(findBoorusWithValueByKey('xxx', 'short'))
-// console.log(removeBoorusWithValuesByKey(['xxx', 'paheal'], 'short', booruListNSFW))
+// console.log(findBoorusWithValueByKey('rule34.xxx', 'domain'))
+// console.log(removeBoorusWithValuesByKey(['rule34.xxx', 'rule34.paheal.net'], 'domain', booruListNSFW))

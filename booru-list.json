@@ -1,51 +1,44 @@
 [
   {
-    "name": "safebooru.org",
-    "short": "safebooru",
+    "domain": "safebooru.org",
+    "type": "gelbooru",
     "max_count": 3022706,
-    "pid": 0,
     "nsfw": false
   },
   {
-    "name": "rule34.xxx",
-    "short": "xxx",
+    "domain": "rule34.xxx",
+    "type": "gelbooru",
     "max_count": 3659351,
-    "pid": 0,
     "nsfw": true
   },
   {
-    "name": "rule34.paheal.net",
-    "short": "paheal",
+    "domain": "rule34.paheal.net",
+    "type": "shimmie2",
     "max_count": 3532797,
-    "pid": 0,
     "nsfw": true
   },
   {
-    "name": "danbooru.donmai.us",
-    "short": "danbooru",
+    "domain": "danbooru.donmai.us",
+    "type": "danbooru2",
     "max_count": 3806415,
-    "pid": 1,
     "nsfw": true
   },
   {
-    "name": "gelbooru.com",
-    "short": "gelbooru",
+    "domain": "gelbooru.com",
+    "type": "gelbooru",
     "max_count": 5164061,
-    "pid": 0,
     "nsfw": true
   },
   {
-    "name": "lolibooru.moe",
-    "short": "lolibooru",
+    "domain": "lolibooru.moe",
+    "type": "danbooru",
     "max_count": 225092,
-    "pid": 1,
     "nsfw": true
   },
   {
-    "name": "e621.net",
-    "short": "e621",
+    "domain": "e621.net",
+    "type": "danbooru2",
     "max_count": 2168016,
-    "pid": 1,
     "nsfw": true
   }
 ]
