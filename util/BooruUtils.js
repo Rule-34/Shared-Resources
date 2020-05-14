@@ -25,9 +25,6 @@ function removeBoorusWithValuesByKey(
   return list.filter((booru) => !valueArray.includes(booru[key]));
 }
 
-// Some presets
-const booruListNSFW = findBoorusWithValueByKey(true, 'nsfw');
-
 // Exported values
 export {
   booruList,
@@ -35,6 +32,9 @@ export {
   findBoorusWithValueByKey,
   removeBoorusWithValuesByKey,
 };
+
+// Example presets
+// const booruListNSFW = findBoorusWithValueByKey(true, 'nsfw')
 
 // Example usage
 // console.log(booruListNSFW, booruListNSFW.length)
