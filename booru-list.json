@@ -2,31 +2,26 @@
   {
     "domain": "safebooru.org",
     "type": "gelbooru",
-    "max_count": 3022706,
     "nsfw": false
   },
   {
     "domain": "rule34.xxx",
     "type": "gelbooru",
-    "max_count": 3659351,
     "nsfw": true
   },
   {
     "domain": "rule34.paheal.net",
     "type": "shimmie2",
-    "max_count": 3532797,
     "nsfw": true
   },
   {
     "domain": "danbooru.donmai.us",
     "type": "danbooru2",
-    "max_count": 3806415,
     "nsfw": true
   },
   {
     "domain": "gelbooru.com",
     "type": "gelbooru",
-    "max_count": 5164061,
     "nsfw": true
   },
   {
@@ -38,7 +33,6 @@
   {
     "domain": "e621.net",
     "type": "danbooru2",
-    "max_count": 2168016,
     "nsfw": true
   }
 ]
