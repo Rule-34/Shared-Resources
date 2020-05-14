@@ -1,5 +1,6 @@
 // Load boorus from JSON
 import booruList from '../booru-list.json';
+import booruTypeList from '../booru-type-list.json';
 
 /**
  * Returns an Array of filtered results
@@ -28,7 +29,7 @@ function removeBoorusWithValuesByKey(
 // Exported values
 export {
   booruList,
-  booruListNSFW,
+  booruTypeList,
   findBoorusWithValueByKey,
   removeBoorusWithValuesByKey,
 };

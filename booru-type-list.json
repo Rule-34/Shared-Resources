@@ -1,0 +1,37 @@
+[
+  {
+    "type": "gelbooru",
+    "initialPageID": 0,
+    "posts": true,
+    "singlePost": true,
+    "tags": true,
+    "random": false
+  },
+
+  {
+    "type": "shimmie2",
+    "initialPageID": 0,
+    "posts": true,
+    "singlePost": true,
+    "tags": true,
+    "random": false
+  },
+
+  {
+    "type": "danbooru",
+    "initialPageID": 1,
+    "posts": true,
+    "singlePost": false,
+    "tags": true,
+    "random": false
+  },
+
+  {
+    "type": "danbooru2",
+    "initialPageID": 1,
+    "posts": true,
+    "singlePost": true,
+    "tags": true,
+    "random": true
+  }
+]
