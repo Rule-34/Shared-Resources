@@ -28,5 +28,10 @@
     "domain": "safebooru.org",
     "type": "gelbooru",
     "nsfw": false
+  },
+  {
+    "domain": "e926.net",
+    "type": "danbooru2",
+    "nsfw": false
   }
 ]
