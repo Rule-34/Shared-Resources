@@ -1,10 +1,5 @@
 [
   {
-    "domain": "safebooru.org",
-    "type": "gelbooru",
-    "nsfw": false
-  },
-  {
     "domain": "rule34.xxx",
     "type": "gelbooru",
     "nsfw": true
@@ -28,5 +23,10 @@
     "domain": "e621.net",
     "type": "danbooru2",
     "nsfw": true
+  },
+  {
+    "domain": "safebooru.org",
+    "type": "gelbooru",
+    "nsfw": false
   }
 ]
