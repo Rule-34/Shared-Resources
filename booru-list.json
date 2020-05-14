@@ -25,12 +25,6 @@
     "nsfw": true
   },
   {
-    "domain": "lolibooru.moe",
-    "type": "danbooru",
-    "max_count": 225092,
-    "nsfw": true
-  },
-  {
     "domain": "e621.net",
     "type": "danbooru2",
     "nsfw": true
