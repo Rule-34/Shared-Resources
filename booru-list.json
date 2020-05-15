@@ -2,7 +2,11 @@
   {
     "domain": "rule34.xxx",
     "type": "gelbooru",
-    "nsfw": true
+    "nsfw": true,
+    "json": {
+      "endpoints": { "tags": "/autocomplete.php" },
+      "queryIdentifiers": { "tags": { "tag": "q" } }
+    }
   },
   {
     "domain": "rule34.paheal.net",
