@@ -1,0 +1,75 @@
+[
+  {
+    "domain": "safebooru.org",
+    "type": "gelbooru",
+    "nsfw": false
+  },
+  {
+    "domain": "gelbooru.com",
+    "type": "gelbooru",
+    "nsfw": true
+  },
+  {
+    "domain": "rule34.xxx",
+    "type": "gelbooru",
+    "nsfw": true
+  },
+  {
+    "domain": "furry.booru.org",
+    "type": "gelbooru",
+    "nsfw": true
+  },
+  {
+    "domain": "xbooru.com",
+    "type": "gelbooru",
+    "nsfw": true
+  },
+
+  {
+    "domain": "rule34.paheal.net",
+    "type": "shimmie2",
+    "nsfw": true
+  },
+  {
+    "domain": "shimmie.shishnet.org",
+    "type": "shimmie2",
+    "nsfw": true
+  },
+
+  {
+    "domain": "hypnohub.net",
+    "type": "danbooru",
+    "nsfw": true
+  },
+  {
+    "domain": "yande.re",
+    "type": "danbooru",
+    "nsfw": true
+  },
+  {
+    "domain": "konachan.com",
+    "type": "danbooru",
+    "nsfw": true
+  },
+
+  {
+    "domain": "danbooru.donmai.us",
+    "type": "danbooru2",
+    "nsfw": true
+  },
+  {
+    "domain": "booru.allthefallen.moe",
+    "type": "danbooru2",
+    "nsfw": true
+  },
+  {
+    "domain": "e621.net",
+    "type": "danbooru2",
+    "nsfw": true
+  },
+  {
+    "domain": "e926.net",
+    "type": "danbooru2",
+    "nsfw": false
+  }
+]
