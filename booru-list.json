@@ -3,7 +3,7 @@
     "domain": "rule34.xxx",
     "type": "gelbooru",
     "nsfw": true,
-    "json": {
+    "config": {
       "endpoints": { "tags": "/autocomplete.php" },
       "queryIdentifiers": { "tags": { "tag": "q" } }
     }
