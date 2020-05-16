@@ -27,18 +27,16 @@ def remove_boorus_with_values_by_key(value_list, key='domain', _list=booru_list)
     return values
 
 
-# Some presets
-booru_list_nsfw = find_boorus_with_value_by_key(True, 'nsfw', booru_list)
-
-
 # Exported values
 # - booru_list
-# - booru_list_nsfw
 
 # Exported functions
 # - find_boorus_with_value_by_key
 # - remove_boorus_with_values_by_key
 
+
+# Example presets
+# booru_list_nsfw = find_boorus_with_value_by_key(True, 'nsfw', booru_list)
 
 # Example usage
 # print(booru_list_nsfw, len(booru_list_nsfw))
