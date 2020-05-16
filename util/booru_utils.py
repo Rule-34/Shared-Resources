@@ -5,6 +5,10 @@ from json import load
 with open(os.path.dirname(__file__) + '/../booru-list.json', 'r') as f:
     booru_list = load(f)
 
+# Load boorus from JSON
+with open(os.path.dirname(__file__) + '/../booru-complete-list.json', 'r') as f:
+    booru_complete_list = load(f)
+
 
 def find_boorus_with_value_by_key(value, key='domain', _list=booru_list):
 
@@ -29,6 +33,7 @@ def remove_boorus_with_values_by_key(value_list, key='domain', _list=booru_list)
 
 # Exported values
 # - booru_list
+# - booru_complete_list
 
 # Exported functions
 # - find_boorus_with_value_by_key
