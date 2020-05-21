@@ -2,74 +2,91 @@
   {
     "domain": "safebooru.org",
     "type": "gelbooru",
-    "nsfw": false
+    "nsfw": false,
+    "config": null
   },
   {
     "domain": "gelbooru.com",
     "type": "gelbooru",
-    "nsfw": true
+    "nsfw": true,
+    "config": null
   },
   {
     "domain": "rule34.xxx",
     "type": "gelbooru",
-    "nsfw": true
+    "nsfw": true,
+    "config": {
+      "endpoints": { "tags": "/autocomplete.php" },
+      "queryIdentifiers": { "tags": { "tag": "q" } }
+    }
   },
   {
     "domain": "furry.booru.org",
     "type": "gelbooru",
-    "nsfw": true
+    "nsfw": true,
+    "config": null
   },
   {
     "domain": "xbooru.com",
     "type": "gelbooru",
-    "nsfw": true
+    "nsfw": true,
+    "config": null
   },
 
   {
     "domain": "rule34.paheal.net",
     "type": "shimmie2",
-    "nsfw": true
+    "nsfw": true,
+    "config": null
   },
   {
     "domain": "shimmie.shishnet.org",
     "type": "shimmie2",
-    "nsfw": true
+    "nsfw": true,
+    "config": null
   },
 
   {
     "domain": "hypnohub.net",
     "type": "danbooru",
-    "nsfw": true
+    "nsfw": true,
+    "config": null
   },
   {
     "domain": "yande.re",
     "type": "danbooru",
-    "nsfw": true
+    "nsfw": true,
+    "config": null
   },
   {
     "domain": "konachan.com",
     "type": "danbooru",
-    "nsfw": true
+    "nsfw": true,
+    "config": null
   },
 
   {
     "domain": "danbooru.donmai.us",
     "type": "danbooru2",
-    "nsfw": true
+    "nsfw": true,
+    "config": null
   },
   {
     "domain": "booru.allthefallen.moe",
     "type": "danbooru2",
-    "nsfw": true
+    "nsfw": true,
+    "config": null
   },
   {
     "domain": "e621.net",
     "type": "danbooru2",
-    "nsfw": true
+    "nsfw": true,
+    "config": null
   },
   {
     "domain": "e926.net",
     "type": "danbooru2",
-    "nsfw": false
+    "nsfw": false,
+    "config": null
   }
 ]
