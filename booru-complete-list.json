@@ -79,13 +79,13 @@
   },
   {
     "domain": "e621.net",
-    "type": "danbooru2",
+    "type": "e621",
     "nsfw": true,
     "config": null
   },
   {
     "domain": "e926.net",
-    "type": "danbooru2",
+    "type": "e621",
     "nsfw": false,
     "config": null
   }
