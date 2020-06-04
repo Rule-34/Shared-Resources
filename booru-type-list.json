@@ -23,7 +23,7 @@
     "posts": true,
     "singlePost": false,
     "tags": true,
-    "random": false
+    "random": true
   },
 
   {
