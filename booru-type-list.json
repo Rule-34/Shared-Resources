@@ -33,5 +33,14 @@
     "singlePost": true,
     "tags": true,
     "random": true
+  },
+
+  {
+    "type": "e621",
+    "initialPageID": 1,
+    "posts": true,
+    "singlePost": true,
+    "tags": true,
+    "random": true
   }
 ]
