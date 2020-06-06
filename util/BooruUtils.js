@@ -11,11 +11,11 @@ function findBoorusWithValueByKey(
 }
 
 function removeBoorusWithValuesByKey(
-  valueArray,
+  valueArr,
   key = 'domain',
   list = booruCompleteList
 ) {
-  return list.filter((booru) => !valueArray.includes(booru[key]));
+  return list.filter((booru) => !valueArr.includes(booru[key]));
 }
 
 /* --- Example presets --- */
