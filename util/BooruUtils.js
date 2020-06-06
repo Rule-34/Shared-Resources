@@ -1,4 +1,5 @@
 import booruList from '../booru-list.json';
+import booruCompleteList from '../booru-complete-list.json';
 import booruTypeList from '../booru-type-list.json';
 
 function findBoorusWithValueByKey(value, key = 'domain', list = booruList) {
@@ -23,6 +24,7 @@ function removeBoorusWithValuesByKey(
 
 export {
   booruList,
+  booruCompleteList,
   booruTypeList,
   findBoorusWithValueByKey,
   removeBoorusWithValuesByKey,
