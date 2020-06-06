@@ -15,6 +15,7 @@ type BooruTypeObj = {
 };
 
 export declare const booruList: BooruObj[];
+export declare const booruCompleteList: BooruObj[];
 export declare const booruTypeList: BooruTypeObj[];
 
 /**
