@@ -2,14 +2,18 @@ import booruList from '../booru-list.json';
 import booruCompleteList from '../booru-complete-list.json';
 import booruTypeList from '../booru-type-list.json';
 
-function findBoorusWithValueByKey(value, key = 'domain', list = booruList) {
+function findBoorusWithValueByKey(
+  value,
+  key = 'domain',
+  list = booruCompleteList
+) {
   return list.filter((booru) => booru[key] === value);
 }
 
 function removeBoorusWithValuesByKey(
   valueArray,
   key = 'domain',
-  list = booruList
+  list = booruCompleteList
 ) {
   return list.filter((booru) => !valueArray.includes(booru[key]));
 }
