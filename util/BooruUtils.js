@@ -13,18 +13,17 @@ function removeBoorusWithValuesByKey(
   return list.filter((booru) => !valueArray.includes(booru[key]));
 }
 
-// Exported values
+/* --- Example presets --- */
+// const booruListNSFW = findBoorusWithValueByKey(true, 'nsfw')
+
+/* --- Example usage --- */
+// console.log(booruListNSFW, booruListNSFW.length)
+// console.log(findBoorusWithValueByKey('rule34.xxx', 'domain'))
+// console.log(removeBoorusWithValuesByKey(['rule34.xxx', 'rule34.paheal.net'], 'domain', booruListNSFW))
+
 export {
   booruList,
   booruTypeList,
   findBoorusWithValueByKey,
   removeBoorusWithValuesByKey,
 };
-
-// Example presets
-// const booruListNSFW = findBoorusWithValueByKey(true, 'nsfw')
-
-// Example usage
-// console.log(booruListNSFW, booruListNSFW.length)
-// console.log(findBoorusWithValueByKey('rule34.xxx', 'domain'))
-// console.log(removeBoorusWithValuesByKey(['rule34.xxx', 'rule34.paheal.net'], 'domain', booruListNSFW))
