@@ -37,7 +37,9 @@
     "domain": "rule34.paheal.net",
     "type": "shimmie2",
     "nsfw": true,
-    "config": null
+    "config": {
+      "options": { "HTTPScheme": "http" }
+    }
   },
   {
     "domain": "shimmie.shishnet.org",
