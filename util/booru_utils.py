@@ -20,10 +20,10 @@ def find_boorus_with_value_by_key(value, key='domain', _list=booru_list):
     return values
 
 
-def remove_boorus_with_values_by_key(value_list, key='domain', _list=booru_list):
+def find_boorus_with_value_list_by_key(value_list, key='domain', _list=booru_list):
 
     values = list(
-        filter(lambda x: x[key] not in value_list, _list))
+        filter(lambda x: x[key] in value_list, _list))
 
     if not values:
         return None
