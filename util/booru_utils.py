@@ -31,13 +31,25 @@ def find_boorus_with_value_list_by_key(value_list, key='domain', _list=booru_lis
     return values
 
 
+# def remove_boorus_with_value_list_by_key(value_list, key='domain', _list=booru_list):
+
+#     values = list(
+#         filter(lambda x: x[key] not in value_list, _list))
+
+#     if not values:
+#         return None
+
+#     return values
+
+
 # Exported values
 # - booru_list
 # - booru_complete_list
 
 # Exported functions
 # - find_boorus_with_value_by_key
-# - remove_boorus_with_values_by_key
+# - find_boorus_with_value_list_by_key
+# - remove_boorus_with_value_list_by_key
 
 
 # Example presets
@@ -46,4 +58,4 @@ def find_boorus_with_value_list_by_key(value_list, key='domain', _list=booru_lis
 # Example usage
 # print(booru_list_nsfw, len(booru_list_nsfw))
 # print(find_boorus_with_value_by_key('rule34.xxx', 'domain'))
-# print(remove_boorus_with_values_by_key(["rule34.xxx"], 'domain', booru_list_nsfw))
+# print(remove_boorus_with_value_list_by_key(["rule34.xxx"], 'domain', booru_list_nsfw))
