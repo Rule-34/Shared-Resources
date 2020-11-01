@@ -12,6 +12,6 @@ For example
 
 ## Files
 
-- [booru-list.json](booru-list.json) default list with popular boorus
+- [booru-list.json](booru-list.json) default list for the Rule 34 App with popular boorus
 - [booru-complete-list.json](booru-complete-list.json) list with all tested and working boorus
 - [booru-type.json](booru-type.json) list with the Rule 34 API supported booru types
