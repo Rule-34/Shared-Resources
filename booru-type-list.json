@@ -9,15 +9,6 @@
   },
 
   {
-    "type": "shimmie2",
-    "initialPageID": 0,
-    "posts": true,
-    "singlePost": true,
-    "tags": true,
-    "random": false
-  },
-
-  {
     "type": "danbooru",
     "initialPageID": 1,
     "posts": true,
@@ -33,6 +24,15 @@
     "singlePost": true,
     "tags": true,
     "random": true
+  },
+
+  {
+    "type": "paheal",
+    "initialPageID": 0,
+    "posts": true,
+    "singlePost": true,
+    "tags": true,
+    "random": false
   },
 
   {

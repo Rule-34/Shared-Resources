@@ -10,7 +10,7 @@
   },
   {
     "domain": "rule34.paheal.net",
-    "type": "shimmie2",
+    "type": "paheal",
     "nsfw": true,
     "config": {
       "options": { "HTTPScheme": "http" }
