@@ -1,6 +1,6 @@
 # Rule 34 Shared Resources
 
-This is a repository that is used as a git submodule between many of my "Rule 34" projects
+This is a repository that is used as a `git submodule` between many of the “Rule 34” projects.
 
 For example
 
