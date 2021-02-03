@@ -1,0 +1,97 @@
+[
+    {
+        "domain": "safebooru.org",
+        "type": "gelbooru",
+        "nsfw": false,
+        "config": null
+    },
+    {
+        "domain": "gelbooru.com",
+        "type": "gelbooru",
+        "nsfw": true,
+        "config": null
+    },
+    {
+        "domain": "rule34.xxx",
+        "type": "gelbooru",
+        "nsfw": true,
+        "config": {
+            "endpoints": { "tags": "/autocomplete.php" },
+            "queryIdentifiers": { "tags": { "tag": "q" } }
+        }
+    },
+    {
+        "domain": "furry.booru.org",
+        "type": "gelbooru",
+        "nsfw": true,
+        "config": null
+    },
+    {
+        "domain": "xbooru.com",
+        "type": "gelbooru",
+        "nsfw": true,
+        "config": null
+    },
+    {
+        "domain": "rule34.paheal.net",
+        "type": "paheal",
+        "nsfw": true,
+        "config": {
+            "options": { "HTTPScheme": "http" }
+        }
+    },
+    {
+        "domain": "shimmie.shishnet.org",
+        "type": "shimmie2",
+        "nsfw": true,
+        "config": null
+    },
+    {
+        "domain": "lolibooru.moe",
+        "type": "danbooru",
+        "nsfw": true,
+        "config": null
+    },
+    {
+        "domain": "hypnohub.net",
+        "type": "danbooru",
+        "nsfw": true,
+        "config": null
+    },
+    {
+        "domain": "yande.re",
+        "type": "danbooru",
+        "nsfw": true,
+        "config": null
+    },
+    {
+        "domain": "konachan.com",
+        "type": "danbooru",
+        "nsfw": true,
+        "config": null
+    },
+    {
+        "domain": "danbooru.donmai.us",
+        "type": "danbooru2",
+        "nsfw": true,
+        "config": null
+    },
+    {
+        "domain": "booru.allthefallen.moe",
+        "type": "danbooru2",
+        "nsfw": true,
+        "config": null
+    },
+    {
+        "domain": "e621.net",
+        "type": "e621",
+        "nsfw": true,
+        "config": null
+    },
+    {
+        "domain": "e926.net",
+        "type": "e621",
+        "nsfw": false,
+        "config": null
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "type": "gelbooru",
+        "initialPageID": 0,
+        "posts": true,
+        "singlePost": true,
+        "tags": true,
+        "random": false
+    },
+    {
+        "type": "danbooru",
+        "initialPageID": 1,
+        "posts": true,
+        "singlePost": false,
+        "tags": true,
+        "random": true
+    },
+    {
+        "type": "danbooru2",
+        "initialPageID": 1,
+        "posts": true,
+        "singlePost": true,
+        "tags": true,
+        "random": true
+    },
+    {
+        "type": "paheal",
+        "initialPageID": 0,
+        "posts": true,
+        "singlePost": true,
+        "tags": true,
+        "random": false
+    },
+    {
+        "type": "e621",
+        "initialPageID": 1,
+        "posts": true,
+        "singlePost": true,
+        "tags": true,
+        "random": true
+    }
+]
