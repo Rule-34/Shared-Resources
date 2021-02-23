@@ -5,7 +5,7 @@
         "nsfw": true,
         "config": {
             "endpoints": { "tags": "/autocomplete.php" },
-            "queryIdentifiers": { "tags": { "tag": "q" } }
+            "queryIdentifiers": { "tags": { "tag": "q", "tagEnding": "" } }
         }
     },
     {
