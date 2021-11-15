@@ -1,7 +1,7 @@
 [
   {
     "domain": "rule34.xxx",
-    "type": "gelbooru",
+    "type": "rule34.xxx",
     "nsfw": true,
     "config": {
       "endpoints": { "tags": "/autocomplete.php" },
@@ -10,7 +10,7 @@
   },
   {
     "domain": "rule34.paheal.net",
-    "type": "paheal",
+    "type": "rule34.paheal.net",
     "nsfw": true,
     "config": {
       "options": { "HTTPScheme": "http" }
@@ -30,7 +30,7 @@
   },
   {
     "domain": "e621.net",
-    "type": "e621",
+    "type": "e621.net",
     "nsfw": true,
     "config": null
   },
@@ -42,7 +42,7 @@
   },
   {
     "domain": "e926.net",
-    "type": "e621",
+    "type": "e621.net",
     "nsfw": false,
     "config": null
   }
