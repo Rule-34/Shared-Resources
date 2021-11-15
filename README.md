@@ -16,6 +16,23 @@ For example
 - [booru-complete-list.json](src/supported-booru-list.json) list with all tested and working boorus
 - [booru-type.json](src/booru-type-list.json) list with the Rule 34 API supported booru types
 
+## Usage
+
+### Adding submodule
+
+```shell
+git submodule add https://github.com/Rule-34/Shared-Resources <route>
+
+# Example
+git submodule add https://github.com/Rule-34/Shared-Resources src/external/rule34-shared-resources
+```
+
+### Updating submodule
+
+```shell
+git submodule update --remote
+```
+
 ## Development
 
 ### Requirements
