@@ -24,7 +24,7 @@
         "random": true
     },
     {
-        "type": "paheal",
+        "type": "rule34.xxx",
         "initialPageID": 0,
         "posts": true,
         "singlePost": true,
@@ -32,7 +32,15 @@
         "random": false
     },
     {
-        "type": "e621",
+        "type": "rule34.paheal.net",
+        "initialPageID": 0,
+        "posts": true,
+        "singlePost": true,
+        "tags": true,
+        "random": false
+    },
+    {
+        "type": "e621.net",
         "initialPageID": 1,
         "posts": true,
         "singlePost": true,
