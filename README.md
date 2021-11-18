@@ -39,11 +39,4 @@ git submodule update --remote
 
 - NodeJS
 - NPM
-
-### Build
-
-```sh
-npm install
-
-npm run build
-```
+- Python 3
