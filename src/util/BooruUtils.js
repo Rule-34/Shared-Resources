@@ -1,6 +1,6 @@
-import * as _defaultBooruList from '../default-booru-list.json'
-import * as _supportedBooruList from '../supported-booru-list.json'
-import * as _booruTypeList from '../booru-type-list.json'
+import _defaultBooruList from '../default-booru-list.json'
+import _supportedBooruList from '../supported-booru-list.json'
+import _booruTypeList from '../booru-type-list.json'
 
 export const defaultBooruList = _defaultBooruList
 export const completeBooruList = _supportedBooruList
