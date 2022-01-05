@@ -21,7 +21,7 @@
   },
   {
     "domain": "gelbooru.com",
-    "type": "gelbooru",
+    "type": "gelbooru.com",
     "nsfw": true,
     "config": null
   },

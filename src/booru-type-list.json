@@ -9,6 +9,15 @@
   },
 
   {
+    "type": "gelbooru.com",
+    "initialPageID": 0,
+    "posts": true,
+    "singlePost": true,
+    "tags": true,
+    "random": false
+  },
+
+  {
     "type": "danbooru",
     "initialPageID": 1,
     "posts": true,
