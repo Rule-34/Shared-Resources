@@ -50,12 +50,6 @@
     "config": null
   },
   {
-    "domain": "furry.booru.org",
-    "type": "gelbooru",
-    "nsfw": true,
-    "config": null
-  },
-  {
     "domain": "hypnohub.net",
     "type": "danbooru",
     "nsfw": true,
