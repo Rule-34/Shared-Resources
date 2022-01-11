@@ -26,15 +26,15 @@
     "config": null
   },
   {
-    "domain": "e621.net",
-    "type": "e621.net",
-    "nsfw": true,
-    "config": null
-  },
-  {
     "domain": "safebooru.org",
     "type": "gelbooru",
     "nsfw": false,
+    "config": null
+  },
+  {
+    "domain": "e621.net",
+    "type": "e621.net",
+    "nsfw": true,
     "config": null
   },
   {
