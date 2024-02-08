@@ -10,7 +10,9 @@
     "type": "rule34.paheal.net",
     "nsfw": true,
     "config": {
-      "options": { "HTTPScheme": "http" }
+      "options": {
+        "HTTPScheme": "http"
+      }
     }
   },
   {
@@ -44,6 +46,12 @@
     "config": null
   },
   {
+    "domain": "sakugabooru.com",
+    "type": "moebooru",
+    "nsfw": false,
+    "config": null
+  },
+  {
     "domain": "xbooru.com",
     "type": "gelbooru",
     "nsfw": true,
@@ -51,37 +59,37 @@
   },
   {
     "domain": "hypnohub.net",
-    "type": "danbooru",
+    "type": "gelbooru",
     "nsfw": true,
     "config": null
   },
   {
     "domain": "yande.re",
-    "type": "danbooru",
+    "type": "moebooru",
     "nsfw": true,
     "config": null
   },
   {
     "domain": "konachan.com",
-    "type": "danbooru",
+    "type": "moebooru",
     "nsfw": true,
     "config": null
   },
   {
     "domain": "lolibooru.moe",
-    "type": "danbooru",
+    "type": "moebooru",
     "nsfw": true,
     "config": null
   },
   {
     "domain": "booru.allthefallen.moe",
-    "type": "danbooru",
+    "type": "danbooru2",
     "nsfw": true,
     "config": null
   },
   {
     "domain": "realbooru.com",
-    "type": "gelbooru",
+    "type": "realbooru.com",
     "nsfw": true,
     "config": null
   }

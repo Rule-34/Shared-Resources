@@ -7,7 +7,6 @@
     "tags": true,
     "random": false
   },
-
   {
     "type": "danbooru",
     "initialPageID": 1,
@@ -16,7 +15,6 @@
     "tags": true,
     "random": true
   },
-
   {
     "type": "danbooru2",
     "initialPageID": 1,
@@ -25,7 +23,14 @@
     "tags": true,
     "random": true
   },
-
+  {
+    "type": "moebooru",
+    "initialPageID": 1,
+    "posts": true,
+    "singlePost": false,
+    "tags": true,
+    "random": true
+  },
   {
     "type": "rule34.xxx",
     "initialPageID": 0,
@@ -34,7 +39,6 @@
     "tags": true,
     "random": false
   },
-
   {
     "type": "rule34.paheal.net",
     "initialPageID": 0,
@@ -43,7 +47,6 @@
     "tags": true,
     "random": false
   },
-
   {
     "type": "gelbooru.com",
     "initialPageID": 0,
@@ -52,7 +55,6 @@
     "tags": true,
     "random": false
   },
-
   {
     "type": "e621.net",
     "initialPageID": 1,
