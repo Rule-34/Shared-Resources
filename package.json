@@ -1,0 +1,21 @@
+{
+  "name": "shared-resources",
+  "description": "This is a repository that is used as a `git submodule` between many of the “Rule 34” projects.",
+  "engines": {
+    "node": ">= 16"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "tsc --build",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "tsc": "^2.0.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.5"
+  }
+}

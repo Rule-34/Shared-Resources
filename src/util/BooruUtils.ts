@@ -2,24 +2,40 @@ import _defaultBooruList from '../default-booru-list.json'
 import _supportedBooruList from '../supported-booru-list.json'
 import _booruTypeList from '../booru-type-list.json'
 
-export const defaultBooruList = _defaultBooruList
-export const completeBooruList = _supportedBooruList
+export type BooruObj = {
+  domain: string
+  type: string
+  nsfw: boolean
+  config: Record<string, unknown> | null
+}
 
-export const booruTypeList = _booruTypeList
+export type BooruTypeObj = {
+  type: string
+  initialPageID: number
+  posts: boolean
+  singlePost: boolean
+  tags: boolean
+  random: boolean
+}
+
+export const defaultBooruList: BooruObj[] = _defaultBooruList
+export const completeBooruList: BooruObj[] = _supportedBooruList
+
+export const booruTypeList: BooruTypeObj[] = _booruTypeList
 
 export function findBoorusWithValueByKey(
-  value,
-  key = 'domain',
-  list = defaultBooruList
-) {
+  value: any,
+  key: keyof BooruObj = 'domain',
+  list: BooruObj[] = defaultBooruList,
+): BooruObj[] {
   return list.filter((booru) => booru[key] === value)
 }
 
 export function removeBoorusWithValuesByKey(
-  valueArr,
-  key = 'domain',
-  list = defaultBooruList
-) {
+  valueArr: any,
+  key: keyof BooruObj = 'domain',
+  list: BooruObj[] = defaultBooruList,
+): BooruObj[] {
   return list.filter((booru) => !valueArr.includes(booru[key]))
 }
 
