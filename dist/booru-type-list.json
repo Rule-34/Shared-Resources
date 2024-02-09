@@ -62,5 +62,13 @@
         "singlePost": true,
         "tags": true,
         "random": true
+    },
+    {
+        "type": "realbooru.com",
+        "initialPageID": 0,
+        "posts": true,
+        "singlePost": true,
+        "tags": true,
+        "random": false
     }
 ]
