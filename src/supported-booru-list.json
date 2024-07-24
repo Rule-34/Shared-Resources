@@ -6,6 +6,12 @@
     "config": null
   },
   {
+    "domain": "gelbooru.com",
+    "type": "gelbooru.com",
+    "nsfw": true,
+    "config": null
+  },
+  {
     "domain": "rule34.paheal.net",
     "type": "rule34.paheal.net",
     "nsfw": true,
@@ -22,18 +28,6 @@
     "config": null
   },
   {
-    "domain": "gelbooru.com",
-    "type": "gelbooru.com",
-    "nsfw": true,
-    "config": null
-  },
-  {
-    "domain": "safebooru.org",
-    "type": "gelbooru",
-    "nsfw": false,
-    "config": null
-  },
-  {
     "domain": "e621.net",
     "type": "e621.net",
     "nsfw": true,
@@ -46,19 +40,25 @@
     "config": null
   },
   {
-    "domain": "sakugabooru.com",
-    "type": "moebooru",
+    "domain": "safebooru.org",
+    "type": "gelbooru",
     "nsfw": false,
     "config": null
   },
   {
-    "domain": "xbooru.com",
+    "domain": "realbooru.com",
+    "type": "realbooru.com",
+    "nsfw": true,
+    "config": null
+  },
+  {
+    "domain": "tbib.org",
     "type": "gelbooru",
     "nsfw": true,
     "config": null
   },
   {
-    "domain": "hypnohub.net",
+    "domain": "xbooru.com",
     "type": "gelbooru",
     "nsfw": true,
     "config": null
@@ -76,8 +76,20 @@
     "config": null
   },
   {
-    "domain": "lolibooru.moe",
-    "type": "moebooru",
+    "domain": "hypnohub.net",
+    "type": "gelbooru",
+    "nsfw": true,
+    "config": null
+  },
+  {
+    "domain": "aibooru.online",
+    "type": "danbooru2",
+    "nsfw": true,
+    "config": null
+  },
+  {
+    "domain": "e6ai.net",
+    "type": "e621.net",
     "nsfw": true,
     "config": null
   },
@@ -88,9 +100,9 @@
     "config": null
   },
   {
-    "domain": "realbooru.com",
-    "type": "realbooru.com",
-    "nsfw": true,
+    "domain": "sakugabooru.com",
+    "type": "moebooru",
+    "nsfw": false,
     "config": null
   }
 ]
