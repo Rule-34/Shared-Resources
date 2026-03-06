@@ -6,12 +6,6 @@
     "config": null
   },
   {
-    "domain": "gelbooru.com",
-    "type": "gelbooru.com",
-    "nsfw": true,
-    "config": null
-  },
-  {
     "domain": "rule34.paheal.net",
     "type": "rule34.paheal.net",
     "nsfw": true,
@@ -22,13 +16,13 @@
     }
   },
   {
-    "domain": "danbooru.donmai.us",
-    "type": "danbooru2",
+    "domain": "e621.net",
+    "type": "e621.net",
     "nsfw": true,
     "config": null
   },
   {
-    "domain": "e621.net",
+    "domain": "e6ai.net",
     "type": "e621.net",
     "nsfw": true,
     "config": null
@@ -43,6 +37,18 @@
     "domain": "safebooru.org",
     "type": "gelbooru",
     "nsfw": false,
+    "config": null
+  },
+  {
+    "domain": "gelbooru.com",
+    "type": "gelbooru.com",
+    "nsfw": true,
+    "config": null
+  },
+  {
+    "domain": "danbooru.donmai.us",
+    "type": "danbooru2",
+    "nsfw": true,
     "config": null
   },
   {
@@ -84,12 +90,6 @@
   {
     "domain": "aibooru.online",
     "type": "danbooru2",
-    "nsfw": true,
-    "config": null
-  },
-  {
-    "domain": "e6ai.net",
-    "type": "e621.net",
     "nsfw": true,
     "config": null
   },

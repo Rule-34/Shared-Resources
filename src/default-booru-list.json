@@ -6,12 +6,6 @@
     "config": null
   },
   {
-    "domain": "gelbooru.com",
-    "type": "gelbooru.com",
-    "nsfw": true,
-    "config": null
-  },
-  {
     "domain": "rule34.paheal.net",
     "type": "rule34.paheal.net",
     "nsfw": true,
@@ -20,12 +14,6 @@
         "HTTPScheme": "http"
       }
     }
-  },
-  {
-    "domain": "danbooru.donmai.us",
-    "type": "danbooru2",
-    "nsfw": true,
-    "config": null
   },
   {
     "domain": "e621.net",
