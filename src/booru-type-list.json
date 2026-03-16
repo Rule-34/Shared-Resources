@@ -70,5 +70,13 @@
     "singlePost": true,
     "tags": true,
     "random": false
+  },
+  {
+    "type": "kemono",
+    "initialPageID": 0,
+    "posts": true,
+    "singlePost": false,
+    "tags": true,
+    "random": false
   }
 ]
