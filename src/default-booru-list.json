@@ -28,6 +28,12 @@
     "config": null
   },
   {
+    "domain": "e6ai.net",
+    "type": "e621.net",
+    "nsfw": true,
+    "config": null
+  },
+  {
     "domain": "e926.net",
     "type": "e621.net",
     "nsfw": false,
