@@ -34,12 +34,6 @@
         "config": null
     },
     {
-        "domain": "e926.net",
-        "type": "e621.net",
-        "nsfw": false,
-        "config": null
-    },
-    {
         "domain": "safebooru.org",
         "type": "gelbooru",
         "nsfw": false,
