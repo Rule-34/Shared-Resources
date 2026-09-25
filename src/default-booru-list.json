@@ -16,6 +16,12 @@
     }
   },
   {
+    "domain": "danbooru.donmai.us",
+    "type": "danbooru2",
+    "nsfw": true,
+    "config": null
+  },
+  {
     "domain": "e621.net",
     "type": "e621.net",
     "nsfw": true,
