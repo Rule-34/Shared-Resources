@@ -98,5 +98,11 @@
     "type": "moebooru",
     "nsfw": false,
     "config": null
+  },
+  {
+    "domain": "kemono.cr",
+    "type": "kemono",
+    "nsfw": true,
+    "config": null
   }
 ]
